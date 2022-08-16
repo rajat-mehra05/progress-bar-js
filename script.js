@@ -8,7 +8,7 @@ function fillBar() {
   if (inputValue < 20) {
     progressBarFill.style.backgroundColor = "red";
   } else if (inputValue >= 20 && inputValue < 65) {
-    progressBarFill.style.backgroundColor = "orange";
+    progressBarFill.style.backgroundColor = "yellow";
   } else {
     progressBarFill.style.backgroundColor = "green";
   }
