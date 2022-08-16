@@ -39,15 +39,25 @@ h1 {
 }
 
 .progress-bar {
-  width: 230px;
   height: 30px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 2px;
 }
 
 .progress-bar-fill {
-  max-width: 100%;
+  border-radius: 5px;
   height: 100%;
-  background-color: rgb(255, 255, 255);
-  padding: 20px;
-  border: 1px solid rgb(10, 7, 7);
-  border-radius: 30px;
+  -webkit-transition: width 1s ease-in-out;
+  -moz-transition: width 1s ease-in-out;
+  -o-transition: width 1s ease-in-out;
+  transition: width 1s ease-in-out;
+}
+
+a {
+  font-size: large;
+  font-weight: 600;
+  color: rgb(12, 3, 12);
 }
