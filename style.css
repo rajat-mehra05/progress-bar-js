@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(29, 27, 34);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  height: 100vh;
+}
+
+.inputNum {
+  padding: 10px 2px;
+  font-size: large;
+}
+
+.applyBtn {
+  padding: 10px;
+  color: white;
+  font-size: medium;
+  background-color: rgb(41, 31, 66);
+  border: none;
+  cursor: pointer;
+}
+
+.applyBtn:hover {
+  background-color: rgb(81, 63, 99);
+}
+
+.progress-bar {
+  width: 230px;
+  height: 30px;
+}
+
+.progress-bar-fill {
+  max-width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border: 1px solid rgb(10, 7, 7);
+  border-radius: 30px;
+}
